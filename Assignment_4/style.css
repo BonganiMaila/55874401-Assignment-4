@@ -1,0 +1,25 @@
+  /* Basic styling for the menu */
+.menu {
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+    }
+.menu a {
+        padding: 14px 20px;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        }
+.menu a:hover {
+        background-color: #575757;
+        }
+
+.centered-div{
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center;   /* Center vertically */
+        background-color: aqua;
+    } 
